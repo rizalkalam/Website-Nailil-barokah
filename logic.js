@@ -1,6 +1,6 @@
 let data_product = [
   {
-    link: "Detail-Produk/katalog2.html",
+    link: "PaperBag_HajidanUmroh",
     img: "./Assets/Katalog/katalog2.jpg",
     name: "Paper Bag Haji dan Umroh",
     category: "Paper Bag",
@@ -8,7 +8,7 @@ let data_product = [
     price: "Rp 17.000/lusin"
   },
   {
-    link: "Detail-Produk/katalog3.html",
+    link: "PaperBag_Terimakasih",
     img: "./Assets/Katalog/katalog3.jpg",
     name: "Paper Bag Terimakasih",
     category: "Paper Bag",
@@ -16,7 +16,7 @@ let data_product = [
     price: "Rp 2.000/pcs"
   },
   {
-    link: "Detail-Produk/katalog4.html",
+    link: "TasPaperBag_Brownies",
     img: "./Assets/Katalog/katalog4.jpg",
     name: "Tas Paper Bag Brownies",
     category: "Paper Bag",
@@ -24,7 +24,7 @@ let data_product = [
     price: "Rp 2.000/pcs"
   },
   {
-    link: "Detail-Produk/katalog1.html",
+    link: "TasSpunbond_MotifPita",
     img: "./Assets/Katalog/katalog1.jpg",
     name: "Tas Spunbond Motif Pita",
     category: "Tas Spunbond",
@@ -32,7 +32,7 @@ let data_product = [
     price: "Rp 4.500/pcs"
   },
   {
-    link: "Detail-Produk/katalog6.html",
+    link: "Tas_Spunbond1",
     img: "./Assets/Katalog/katalog6.jpg",
     name: "Tas Spunbond",
     category: "Tas Spunbond",
@@ -40,7 +40,7 @@ let data_product = [
     price: "Rp 4.500/pcs"
   },
   {
-    link: "Detail-Produk/katalog8.html",
+    link: "TasSPunbond_Motif1",
     img: "./Assets/Katalog/katalog8.jpg",
     name: "Tas SPunbond Motif",
     category: "Tas Spunbond",
@@ -48,7 +48,7 @@ let data_product = [
     price: "Rp 4.700/pcs"
   },
   {
-    link: "Detail-Produk/katalog17.html",
+    link: "TasSpunbond_Mika1",
     img: "./Assets/Katalog/katalog17.jpg",
     name: "Tas Spunbond Mika",
     category: "Tas Spunbond",
@@ -56,7 +56,7 @@ let data_product = [
     price: "Rp 5.000/pcs"
   },
   {
-    link: "Detail-Produk/katalog7.html",
+    link: "TasSpunbond_Mika2",
     img: "./Assets/Katalog/katalog7.jpg",
     name: "Tas Spunbond Mika",
     category: "Tas Spunbond",
@@ -64,7 +64,7 @@ let data_product = [
     price: "Rp 4.700/pcs"
   },
   {
-    link: "Detail-Produk/katalog5.html",
+    link: "TasSpunbond1",
     img: "./Assets/Katalog/katalog5.jpg",
     name: "Tas Spunbond",
     category: "Tas Spunbond",
@@ -72,7 +72,7 @@ let data_product = [
     price: "Rp 4.000/pcs"
   },
   {
-    link: "Detail-Produk/katalog9.html",
+    link: "TasSpunbond2",
     img: "./Assets/Katalog/katalog9.jpg",
     name: "Tas Spunbond",
     category: "Tas Spunbond",
@@ -80,7 +80,7 @@ let data_product = [
     price: "Rp 4.000/pcs"
   },
   {
-    link: "Detail-Produk/katalog10.html",
+    link: "TasSpunbond_Motif2",
     img: "./Assets/Katalog/katalog10.jpg",
     name: "Tas Spunbond Motif",
     category: "Tas Spunbond",
@@ -88,7 +88,7 @@ let data_product = [
     price: "Rp 3.250/pcs"
   },
   {
-    link: "Detail-Produk/katalog20.html",
+    link: "TasSpunbond_Motif3",
     img: "./Assets/Katalog/katalog20.jpg",
     name: "Tas Spunbond Motif",
     category: "Tas Spunbond",
