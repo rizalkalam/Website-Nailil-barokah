@@ -257,34 +257,33 @@ const data_katalog = [
   },
 ];
 
-  const filterSelect = document.getElementById("filter-katalog");
-  const katalogDataContainer = document.getElementById("katalog-list");
-  
-  filterSelect.addEventListener("change", function () {
-    const selectedKatalog = filterSelect.value;
-    filterKatalogs(selectedKatalog);
-  });
+const filterSelect = document.getElementById("filter-katalog");
+const katalogDataContainer = document.getElementById("katalog-list");
 
-  function filterKatalogs(selectedKatalog) {
-    const filteredKatalogs = data_katalog.filter((katalog) => {
-        return selectedKatalog === "Semua" || katalog.category === selectedKatalog;
-      });
+filterSelect.addEventListener("change", function () {
+  const selectedKatalog = filterSelect.value;
+  filterKatalogs(selectedKatalog);
+});
 
-      const fillKatalog = filteredKatalogs.map(
-        (data) => 
-        `<a href=${data.link}>
-            <div class="card-product">
-                <img src=${data.img} alt="Produk Nailil Barokah" class="image-product">
-                <p class="name-product">${data.name}</p>
-                <p class="size-product">${data.size}</p>
-                <p class="price-product">${data.price}</p>
-            </div>
-        </a>`
-      );
+function filterKatalogs(selectedKatalog) {
+  const filteredKatalogs = data_katalog.filter((katalog) => {
+      return selectedKatalog === "Semua" || katalog.category === selectedKatalog;
+    });
 
-      katalogDataContainer.innerHTML = fillKatalog.join("")
-  }
+    const fillKatalog = filteredKatalogs.map(
+      (data) => 
+      `<a href=${data.link}>
+          <div class="card-product">
+              <img src=${data.img} alt="Produk Nailil Barokah" class="image-product">
+              <p class="name-product">${data.name}</p>
+              <p class="size-product">${data.size}</p>
+              <p class="price-product">${data.price}</p>
+          </div>
+      </a>`
+    );
 
-  filterKatalogs("Semua")
+    katalogDataContainer.innerHTML = fillKatalog.join("")
+}
 
-  
+filterKatalogs("Semua")
+
