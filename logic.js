@@ -128,8 +128,8 @@ document.addEventListener("DOMContentLoaded", () => {
        }
       }, step);
     }
-    counter("count1", 260, 600, 800);
-    counter("count2", 0, 40, 2500);
+    counter("count1", 400, 1000, 800);
+    counter("count2", 0, 100, 2500);
     counter("count3", 0, 16, 2500);
     counter("count4", 0, 19, 2500);
    });
